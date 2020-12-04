@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 34, in script
+    define hero = Characer("[name]")
+  File "game/script.rpy", line 34, in <module>
+    define hero = Characer("[name]")
+NameError: name 'Characer' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 34, in script
+    define hero = Characer("[name]")
+  File "C:\Users\Yutta\Desktop\PersonalProjects\renpy\renpy-7.3.5-sdk\renpy\ast.py", line 2108, in execute
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "C:\Users\Yutta\Desktop\PersonalProjects\renpy\renpy-7.3.5-sdk\renpy\python.py", line 2052, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 34, in <module>
+    define hero = Characer("[name]")
+NameError: name 'Characer' is not defined
+
+Windows-8-6.2.9200
+Ren'Py 7.3.5.606
+beat the evil dragon 1.0
+Sat Dec 05 02:55:15 2020
